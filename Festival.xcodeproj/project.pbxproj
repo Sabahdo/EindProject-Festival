@@ -13,6 +13,8 @@
 		798A289D23E1864A0007051C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798A289B23E1864A0007051C /* Main.storyboard */; };
 		798A289F23E186550007051C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798A289E23E186550007051C /* Assets.xcassets */; };
 		798A28A223E186550007051C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798A28A023E186550007051C /* LaunchScreen.storyboard */; };
+		79A2534E23E18DCE00348633 /* NewPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2534D23E18DCE00348633 /* NewPoint.swift */; };
+		79A2535023E18DE900348633 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2534F23E18DE900348633 /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		798A289E23E186550007051C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		798A28A123E186550007051C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		798A28A323E186550007051C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A2534D23E18DCE00348633 /* NewPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPoint.swift; sourceTree = "<group>"; };
+		79A2534F23E18DE900348633 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				798A289E23E186550007051C /* Assets.xcassets */,
 				798A28A023E186550007051C /* LaunchScreen.storyboard */,
 				798A28A323E186550007051C /* Info.plist */,
+				79A2534D23E18DCE00348633 /* NewPoint.swift */,
+				79A2534F23E18DE900348633 /* DataSource.swift */,
 			);
 			path = Festival;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				798A289A23E1864A0007051C /* ViewController.swift in Sources */,
+				79A2534E23E18DCE00348633 /* NewPoint.swift in Sources */,
 				798A289623E1864A0007051C /* AppDelegate.swift in Sources */,
+				79A2535023E18DE900348633 /* DataSource.swift in Sources */,
 				798A289823E1864A0007051C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
