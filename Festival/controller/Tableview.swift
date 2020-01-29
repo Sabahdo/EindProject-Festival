@@ -9,45 +9,75 @@
 import UIKit
 
 class Tableview: UIViewController , UITableViewDataSource, UITableViewDelegate {
-
-@IBOutlet weak var tableView: UITableView!
- var items:[Artist] = [Artist]()
-
-override func viewDidLoad() {
-      super.viewDidLoad()
-    let DAO = DatasourceArtist.init()
-    items = DAO.lineUp
-      // Do any additional setup after loading the view.
-  }
-
-func numberOfSections(in tableView: UITableView) -> Int {
-    return 2
-}
-
+    
+    @IBOutlet weak var tableView: UITableView!
+    /*
+    var itemsSat:[Artist] = [Artist]()
+    var itemsSun:[Artist] = [Artist]()
+ */
+    
+    let items = DatasourceArtist.init()
+    var itemsSat = [Artist]()
+    var itemsSun = [Artist]()
 
     
-func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       return items.count
-   }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        itemsSat = items.lineUpSat
+        itemsSun = items.lineUpSun
 
 
-func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // Do any additional setup after loading the view.
+    }
     
-    //maak verwijzing naar cell in storyboard
-   
-    let currentCell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell") as! TableViewCell
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
     
-    //product voor de juiste rij uit datasource halen
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 0 {
+            return "Saturday"
+        }else{
+            return "Sunday"
+        }
+    }
     
-    let currentUitgaven = items[indexPath.row]
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if section == 0 {
+            return itemsSat.count
+        }else{
+            return itemsSun.count
+        }
+    }
     
-    //cell opvullen met product
-    
-    currentCell.ArtNaam.text = currentUitgaven.artistnaam
-    currentCell.Time.text = currentUitgaven.time
-    currentCell.PodiumA.text = currentUitgaven.podium
-    
-    return currentCell
-}
+    /*
+     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+     if section == 1 {
+     return itemsSun.count
+     }else{
+     return 1
+     }
+     }
+     */
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        //maak verwijzing naar cell in storyboard
+        
+        let currentCell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell") as! TableViewCell
+        
+        //product voor de juiste rij uit datasource halen
+        
+        let currentArtist = itemsSat[indexPath.row]
+        print("hey")
+        
+        //cell opvullen met product
+        
+        currentCell.ArtNaam.text = currentArtist.artistnaam
+        currentCell.Time.text = currentArtist.time
+        currentCell.PodiumA.text = currentArtist.podium
+        
+        return currentCell
+    }
     
 }

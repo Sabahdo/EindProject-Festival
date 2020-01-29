@@ -10,13 +10,16 @@ import Foundation
 
 class DatasourceArtist{
 
-    var lineUp:[Artist]
+    var lineUpSat:[Artist]
+    var lineUpSun:[Artist]
     
     init() {
-        lineUp = [Artist]()
+        lineUpSat = [Artist]()
+        lineUpSun = [Artist]()
     
-        lineUp.append(Artist.init(artistnaam: "bobo clown", podium: "B", time: "9:00", speeldag: "Zaterdag", bioArtist: "blabla"))
-          
+        lineUpSat.append(Artist.init(artistnaam: "bobo clown", podium: "B", time: "9:00", bioArtist: "blabla"))
+        lineUpSun.append(Artist.init(artistnaam: "clown", podium: "C", time: "9:00", bioArtist: "blabla"))
+
             /*
       lineUp.append(Artist.init(artistnaam: String, podium: <#T##String#>, time: <#T##String#>, speeldag: <#T##String#>, bioArtist: <#T##String#>)
       lineUp.append(Artist.init(artistnaam: <#T##String#>, podium: <#T##String#>, time: <#T##String#>, speeldag: <#T##String#>, bioArtist: <#T##String#>)
