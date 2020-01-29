@@ -15,6 +15,7 @@
 		798A28A223E186550007051C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798A28A023E186550007051C /* LaunchScreen.storyboard */; };
 		79A2534E23E18DCE00348633 /* NewPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2534D23E18DCE00348633 /* NewPoint.swift */; };
 		79A2535023E18DE900348633 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2534F23E18DE900348633 /* DataSource.swift */; };
+		79A2535223E19DA700348633 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2535123E19DA700348633 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		798A28A323E186550007051C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A2534D23E18DCE00348633 /* NewPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPoint.swift; sourceTree = "<group>"; };
 		79A2534F23E18DE900348633 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		79A2535123E19DA700348633 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				798A28A323E186550007051C /* Info.plist */,
 				79A2534D23E18DCE00348633 /* NewPoint.swift */,
 				79A2534F23E18DE900348633 /* DataSource.swift */,
+				79A2535123E19DA700348633 /* TableViewCell.swift */,
 			);
 			path = Festival;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				798A289A23E1864A0007051C /* ViewController.swift in Sources */,
 				79A2534E23E18DCE00348633 /* NewPoint.swift in Sources */,
 				798A289623E1864A0007051C /* AppDelegate.swift in Sources */,
+				79A2535223E19DA700348633 /* TableViewCell.swift in Sources */,
 				79A2535023E18DE900348633 /* DataSource.swift in Sources */,
 				798A289823E1864A0007051C /* SceneDelegate.swift in Sources */,
 			);
