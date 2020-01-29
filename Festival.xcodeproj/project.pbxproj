@@ -16,7 +16,7 @@
 		79A2534E23E18DCE00348633 /* NewPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2534D23E18DCE00348633 /* NewPoint.swift */; };
 		79A2535023E18DE900348633 /* DataSourceMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2534F23E18DE900348633 /* DataSourceMap.swift */; };
 		79A2535223E19DA700348633 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2535123E19DA700348633 /* TableViewCell.swift */; };
-		79A2535423E1B9BD00348633 /* Tableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2535323E1B9BD00348633 /* Tableview.swift */; };
+		79A2535423E1B9BD00348633 /* TableviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2535323E1B9BD00348633 /* TableviewController.swift */; };
 		79A2535623E1BA3200348633 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2535523E1BA3200348633 /* Artist.swift */; };
 		79A2535A23E1BBDB00348633 /* DatasourceArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2535923E1BBDB00348633 /* DatasourceArtist.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,7 @@
 		79A2534D23E18DCE00348633 /* NewPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPoint.swift; sourceTree = "<group>"; };
 		79A2534F23E18DE900348633 /* DataSourceMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMap.swift; sourceTree = "<group>"; };
 		79A2535123E19DA700348633 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		79A2535323E1B9BD00348633 /* Tableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tableview.swift; sourceTree = "<group>"; };
+		79A2535323E1B9BD00348633 /* TableviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewController.swift; sourceTree = "<group>"; };
 		79A2535523E1BA3200348633 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		79A2535923E1BBDB00348633 /* DatasourceArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasourceArtist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,11 +94,19 @@
 		79A2535823E1BAC900348633 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				79A2535B23E1E15000348633 /* DetailController */,
 				79A2535123E19DA700348633 /* TableViewCell.swift */,
-				79A2535323E1B9BD00348633 /* Tableview.swift */,
+				79A2535323E1B9BD00348633 /* TableviewController.swift */,
 				798A289923E1864A0007051C /* ViewController.swift */,
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		79A2535B23E1E15000348633 /* DetailController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +188,7 @@
 				798A289823E1864A0007051C /* SceneDelegate.swift in Sources */,
 				79A2535A23E1BBDB00348633 /* DatasourceArtist.swift in Sources */,
 				79A2535623E1BA3200348633 /* Artist.swift in Sources */,
-				79A2535423E1B9BD00348633 /* Tableview.swift in Sources */,
+				79A2535423E1B9BD00348633 /* TableviewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

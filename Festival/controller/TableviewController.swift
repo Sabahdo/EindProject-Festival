@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Tableview: UIViewController , UITableViewDataSource, UITableViewDelegate {
+class TableviewController: UIViewController , UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     /*
@@ -51,15 +51,7 @@ class Tableview: UIViewController , UITableViewDataSource, UITableViewDelegate {
         }
     }
     
-    /*
-     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-     if section == 1 {
-     return itemsSun.count
-     }else{
-     return 1
-     }
-     }
-     */
+  
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         //maak verwijzing naar cell in storyboard
@@ -67,9 +59,13 @@ class Tableview: UIViewController , UITableViewDataSource, UITableViewDelegate {
         let currentCell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell") as! TableViewCell
         
         //product voor de juiste rij uit datasource halen
+        var currentArtist:Artist
         
-        let currentArtist = itemsSat[indexPath.row]
-        print("hey")
+        if indexPath.section == 0{
+           currentArtist = itemsSat[indexPath.row]
+        }else{
+            currentArtist = itemsSun[indexPath.row]
+        }
         
         //cell opvullen met product
         
