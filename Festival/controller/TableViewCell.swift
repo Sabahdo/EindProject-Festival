@@ -10,7 +10,8 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var Artistnaam: UILabel!
+ 
+    @IBOutlet weak var ArtNaam: UILabel!
     
     @IBOutlet weak var Time: UILabel!
     
