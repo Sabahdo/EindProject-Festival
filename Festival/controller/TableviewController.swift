@@ -76,4 +76,28 @@ class TableviewController: UIViewController , UITableViewDataSource, UITableView
         return currentCell
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+                  if segue.identifier == "detailsSegue"{
+         
+        //welke ndex (cell) is geselecteerd
+         let indexPath: IndexPath = tableView.indexPath(for: sender as! TableViewCell)!
+         
+        //welk product hoort bij de cell
+        var currentArtist:Artist
+        if indexPath.section == 0{
+            currentArtist = itemsSat[indexPath.row]
+         }else{
+             currentArtist = itemsSun[indexPath.row]
+         }
+         
+         
+        //naar welk scherm gaat de navigatie
+         let destinationVC:DetailController = segue.destination as! DetailController
+         
+        //geef effectief het product door aan het volgend scherm
+         destinationVC.currentArtist = currentArtist
+    }
 }
+}
+
