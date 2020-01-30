@@ -17,15 +17,19 @@ class DatasourceArtist{
         lineUpSat = [Artist]()
         lineUpSun = [Artist]()
     
-        lineUpSat.append(Artist.init(artistnaam: "bobo clown", podium: "B", time: "9:00", bioArtist: "blabla"))
+        lineUpSat.append(Artist.init(artistnaam: "Bob Marly", podium: "B", time: "9:00", bioArtist: "blabla"))
+        lineUpSat.append(Artist.init(artistnaam: "Reel big fish", podium: "B", time: "9:00", bioArtist: "blabla"))
+        
+        
+        lineUpSat.append(Artist.init(artistnaam: "Alien Ant Farm", podium: "B", time: "9:00", bioArtist: "Alien Ant Farm is een alternatieve rock-band ontstaan in Riverside, Californië in 1996. De naam is afkomstig van een idee over aliens en de aarde van gitarist Terry Corso: I was daydreaming at my dull desk job with my feet up, and I thought to myself,'Wouldn't it be cool if the human species were placed on earth and cultivated by alien intelligence?' Maybe the aliens added us to an atmosphere that was suitable for us, and they've been watching us develop and colonize, kind of like what a kid does with an ant farm. Hun grootste hit was een cover van Michael Jacksons Smooth Criminal in 2001. In mei 2002 was de band betrokken bij een auto ongeluk tijdens hun tour. Chauffeur Christopher Holland overleed en leadzanger Dryden Mitchell raakte zwaargewond"))
+        
+        
+            
+        lineUpSun.append(Artist.init(artistnaam: "Swashbuckle", podium: "C", time: "9:00", bioArtist: "blabla"))
+        lineUpSun.append(Artist.init(artistnaam: "Admiral freebie", podium: "C", time: "9:00", bioArtist: "blabla"))
         lineUpSun.append(Artist.init(artistnaam: "clown", podium: "C", time: "9:00", bioArtist: "blabla"))
 
-            /*
-      lineUp.append(Artist.init(artistnaam: String, podium: <#T##String#>, time: <#T##String#>, speeldag: <#T##String#>, bioArtist: <#T##String#>)
-      lineUp.append(Artist.init(artistnaam: <#T##String#>, podium: <#T##String#>, time: <#T##String#>, speeldag: <#T##String#>, bioArtist: <#T##String#>)
-      lineUp.append(Artist.init(artistnaam: <#T##String#>, podium: <#T##String#>, time: <#T##String#>, speeldag: <#T##String#>, bioArtist: <#T##String#>)
-      lineUp.append(Artist.init(artistnaam: <#T##String#>, podium: <#T##String#>, time: <#T##String#>, speeldag: <#T##String#>, bioArtist: <#T##String#>)
-*/
+ 
         
-    }
-}
+    }}
+

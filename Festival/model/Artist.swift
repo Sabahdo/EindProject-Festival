@@ -15,6 +15,8 @@ class Artist{
     var podium:String
     var time:String
     var bioArtist:String
+
+    
     
     init(artistnaam:String, podium:String, time:String, bioArtist:String ){
         self.artistnaam = artistnaam

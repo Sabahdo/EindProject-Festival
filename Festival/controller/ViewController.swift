@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
 
     @IBOutlet var Long: UILongPressGestureRecognizer!
     @IBOutlet weak var mapView: MKMapView!

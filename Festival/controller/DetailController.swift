@@ -29,7 +29,9 @@ class DetailController: UIViewController {
         
         if currentArtist != nil{
             artistlbl.text = currentArtist!.artistnaam
-            print("exists")
+            artistlbl.text = currentArtist!.artistnaam
+            artistlbl.text = currentArtist!.artistnaam
+            
         }
 
         // Do any additional setup after loading the view.
