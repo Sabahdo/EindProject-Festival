@@ -30,7 +30,7 @@ class DetailController: UIViewController {
         if currentArtist != nil{
             artistlbl.text = currentArtist!.artistnaam
             artistlbl.text = currentArtist!.artistnaam
-            artistlbl.text = currentArtist!.artistnaam
+            biografie.text = currentArtist!.bioArtist
             
         }
 
