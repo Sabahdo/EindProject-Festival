@@ -19,6 +19,10 @@ class DetailController: UIViewController {
     
     @IBOutlet weak var biografie: UITextView!
     
+    @IBOutlet weak var mnmIM: UIImageView!
+    
+    @IBOutlet weak var colaIM: UIImageView!
+    
     var currentArtist:Artist?
     
     
@@ -29,8 +33,10 @@ class DetailController: UIViewController {
         
         if currentArtist != nil{
             artistlbl.text = currentArtist!.artistnaam
-            artistlbl.text = currentArtist!.artistnaam
+            image.image = UIImage.init(named: currentArtist!.bioImage)
             biografie.text = currentArtist!.bioArtist
+            
+            
             
         }
 

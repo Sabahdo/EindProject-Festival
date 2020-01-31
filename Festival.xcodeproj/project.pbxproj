@@ -20,6 +20,12 @@
 		79A2535423E1B9BD00348633 /* TableviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2535323E1B9BD00348633 /* TableviewController.swift */; };
 		79A2535623E1BA3200348633 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2535523E1BA3200348633 /* Artist.swift */; };
 		79A2535A23E1BBDB00348633 /* DatasourceArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A2535923E1BBDB00348633 /* DatasourceArtist.swift */; };
+		94677C5F23E37C1600B8CFC4 /* Alien_Ant_Farm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94677C5923E37C1600B8CFC4 /* Alien_Ant_Farm.jpg */; };
+		94677C6023E37C1600B8CFC4 /* Bob-Marley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94677C5A23E37C1600B8CFC4 /* Bob-Marley.jpg */; };
+		94677C6123E37C1600B8CFC4 /* 532px-Beyonce_-_The_Formation_World_Tour,_at_Wembley_Stadium_in_London,_England.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94677C5B23E37C1600B8CFC4 /* 532px-Beyonce_-_The_Formation_World_Tour,_at_Wembley_Stadium_in_London,_England.jpg */; };
+		94677C6223E37C1600B8CFC4 /* Swashbuckle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94677C5C23E37C1600B8CFC4 /* Swashbuckle.jpg */; };
+		94677C6323E37C1600B8CFC4 /* 532px-Reel_Big_Fish_live_in_Santa_Cruz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94677C5D23E37C1600B8CFC4 /* 532px-Reel_Big_Fish_live_in_Santa_Cruz.jpg */; };
+		94677C6423E37C1600B8CFC4 /* admiral-freebee-verzorgt-voorprogramma-neil-young_1_515x0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94677C5E23E37C1600B8CFC4 /* admiral-freebee-verzorgt-voorprogramma-neil-young_1_515x0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,12 @@
 		79A2535323E1B9BD00348633 /* TableviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewController.swift; sourceTree = "<group>"; };
 		79A2535523E1BA3200348633 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		79A2535923E1BBDB00348633 /* DatasourceArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasourceArtist.swift; sourceTree = "<group>"; };
+		94677C5923E37C1600B8CFC4 /* Alien_Ant_Farm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Alien_Ant_Farm.jpg; path = Festival/Artistenfotos/Alien_Ant_Farm.jpg; sourceTree = SOURCE_ROOT; };
+		94677C5A23E37C1600B8CFC4 /* Bob-Marley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bob-Marley.jpg"; path = "Festival/Artistenfotos/Bob-Marley.jpg"; sourceTree = SOURCE_ROOT; };
+		94677C5B23E37C1600B8CFC4 /* 532px-Beyonce_-_The_Formation_World_Tour,_at_Wembley_Stadium_in_London,_England.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "532px-Beyonce_-_The_Formation_World_Tour,_at_Wembley_Stadium_in_London,_England.jpg"; path = "Festival/Artistenfotos/532px-Beyonce_-_The_Formation_World_Tour,_at_Wembley_Stadium_in_London,_England.jpg"; sourceTree = SOURCE_ROOT; };
+		94677C5C23E37C1600B8CFC4 /* Swashbuckle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Swashbuckle.jpg; path = Festival/Artistenfotos/Swashbuckle.jpg; sourceTree = SOURCE_ROOT; };
+		94677C5D23E37C1600B8CFC4 /* 532px-Reel_Big_Fish_live_in_Santa_Cruz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "532px-Reel_Big_Fish_live_in_Santa_Cruz.jpg"; path = "Festival/Artistenfotos/532px-Reel_Big_Fish_live_in_Santa_Cruz.jpg"; sourceTree = SOURCE_ROOT; };
+		94677C5E23E37C1600B8CFC4 /* admiral-freebee-verzorgt-voorprogramma-neil-young_1_515x0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "admiral-freebee-verzorgt-voorprogramma-neil-young_1_515x0.jpg"; path = "Festival/Artistenfotos/admiral-freebee-verzorgt-voorprogramma-neil-young_1_515x0.jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 		798A289423E1864A0007051C /* Festival */ = {
 			isa = PBXGroup;
 			children = (
+				94677C6523E37D5E00B8CFC4 /* Artistenfotos */,
 				79A2535823E1BAC900348633 /* controller */,
 				79A2535723E1BAC000348633 /* model */,
 				798A289523E1864A0007051C /* AppDelegate.swift */,
@@ -102,6 +115,19 @@
 				799FB4C023E2CA3D00EB059F /* DetailController.swift */,
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		94677C6523E37D5E00B8CFC4 /* Artistenfotos */ = {
+			isa = PBXGroup;
+			children = (
+				94677C5B23E37C1600B8CFC4 /* 532px-Beyonce_-_The_Formation_World_Tour,_at_Wembley_Stadium_in_London,_England.jpg */,
+				94677C5D23E37C1600B8CFC4 /* 532px-Reel_Big_Fish_live_in_Santa_Cruz.jpg */,
+				94677C5E23E37C1600B8CFC4 /* admiral-freebee-verzorgt-voorprogramma-neil-young_1_515x0.jpg */,
+				94677C5923E37C1600B8CFC4 /* Alien_Ant_Farm.jpg */,
+				94677C5A23E37C1600B8CFC4 /* Bob-Marley.jpg */,
+				94677C5C23E37C1600B8CFC4 /* Swashbuckle.jpg */,
+			);
+			path = Artistenfotos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +188,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94677C6323E37C1600B8CFC4 /* 532px-Reel_Big_Fish_live_in_Santa_Cruz.jpg in Resources */,
+				94677C6223E37C1600B8CFC4 /* Swashbuckle.jpg in Resources */,
+				94677C6023E37C1600B8CFC4 /* Bob-Marley.jpg in Resources */,
+				94677C6423E37C1600B8CFC4 /* admiral-freebee-verzorgt-voorprogramma-neil-young_1_515x0.jpg in Resources */,
 				798A28A223E186550007051C /* LaunchScreen.storyboard in Resources */,
+				94677C5F23E37C1600B8CFC4 /* Alien_Ant_Farm.jpg in Resources */,
 				798A289F23E186550007051C /* Assets.xcassets in Resources */,
 				798A289D23E1864A0007051C /* Main.storyboard in Resources */,
+				94677C6123E37C1600B8CFC4 /* 532px-Beyonce_-_The_Formation_World_Tour,_at_Wembley_Stadium_in_London,_England.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
